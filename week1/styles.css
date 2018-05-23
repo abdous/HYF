@@ -1,0 +1,191 @@
+html {
+    color: #7D7D7D;
+}
+body {
+    background-color: rgb(241, 241, 235);
+}
+
+h3, h4 {
+    color: brown;
+}
+.list {
+    list-style: none;
+    padding: 0 30px 0 30px;
+}
+
+header {
+    background-size: cover;
+    margin: 0px 84px auto 84px;
+}
+
+
+.banner {
+    width: 100%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+    text-align: center;
+    color: brown;
+    margin: -100px 84px auto 84px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    
+}
+
+.image {
+    border-radius: 50%;
+}
+
+.background {
+    background-color:white;
+    margin-top: -86px;
+    padding-top: 86px;
+    padding-bottom: 20px;
+}
+
+.bio h3 {
+    margin-top: -17px;
+}
+
+.bio li {
+    display: inline;
+    padding: inherit;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.bio a {
+    color:rgb(43, 43, 43);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: auto;
+}
+
+.bio a:hover {
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+}
+
+.about-me {
+    text-align: center;
+    margin: 6px 84px 0px 84px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.about-me b {
+    color: brown;
+}
+
+.about-me p {
+    padding: 5%;
+    padding-left: 88px;
+    margin-top: 0px;
+}
+
+.about-me a, .footer a {
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+}
+.about-me a:hover {
+    text-decoration: underline;
+}
+
+.education, .experience {
+    padding: 12px 0px 12px 100px;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.education {
+    text-align: left;
+    margin: -10px 84px 0px 84px;
+}
+
+.experience {
+    margin: 6px 84px 0px 84px;
+}
+
+.skills {
+    padding: 12px 0px 12px 100px;
+    margin: 6px 84px -340px 84px;
+    background-color: white;
+    height: 400px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.first-card, .second-card {
+    display: inline-flex;
+    background-color: white;
+    position: relative;
+}
+
+span {
+    display: block;
+    height: 100%;
+    border-radius: 3px;
+    color: rgb(43, 43, 43);
+    margin-top: 14px;
+    padding: 2px 45px 3px 5px;
+  }
+
+  .comm, .html, .net, .pc, .self, .flex {
+    background-color: #B9FFB7;
+}
+
+.comm .net {
+    width: 85%;
+}
+
+.html .self, .flex {
+    width: 80%;
+}
+
+.dedi, .multi, .team {
+    width: 120%;
+    background-color: #0EAD69;
+}
+
+.pc {
+    width: 90%;
+    background-color: #0EAD69;
+}
+
+.ror {
+    width: 44%;
+    background-color: #F19A3E;
+}
+
+.css {
+    width: 60%;
+    background-color: #98D9C2;
+}
+
+.js {
+    width: 20%;
+    background-color: #D496A7;
+}
+.first-card {
+    background-color: white;
+    margin: -34px 54px 0px 85px;
+    padding: 0px 47px 56px 73px;
+}
+
+.second-card {
+    margin: -34px 54px 0px 0px;
+    padding: 0px 47px 56px 0px;
+}
+
+.footer {
+    text-align: center;
+    margin: 0px 84px 0px 84px;
+    padding: 2px;
+    font-size: 15px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+}
+
