@@ -76,6 +76,7 @@ header {
     margin: 6px 84px 0px 84px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     background-color: white;
+    line-height: 0.7cm;
 }
 
 .about-me b {
@@ -97,9 +98,10 @@ header {
 }
 
 .education, .experience {
-    padding: 12px 0px 12px 100px;
+    padding: 12px 100px 35px 100px;
     background-color: white;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    line-height: 0.7cm;
 }
 .education {
     text-align: left;
@@ -112,7 +114,7 @@ header {
 
 .skills {
     padding: 12px 0px 12px 100px;
-    margin: 6px 84px -340px 84px;
+    margin: 6px 84px 0px 84px;
     background-color: white;
     height: 400px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
@@ -120,8 +122,8 @@ header {
 
 .first-card, .second-card {
     display: inline-flex;
-    background-color: white;
     position: relative;
+    padding-right: 56px;
 }
 
 span {
@@ -168,16 +170,6 @@ span {
 .js {
     width: 20%;
     background-color: #D496A7;
-}
-.first-card {
-    background-color: white;
-    margin: -34px 54px 0px 85px;
-    padding: 0px 47px 56px 73px;
-}
-
-.second-card {
-    margin: -34px 54px 0px 0px;
-    padding: 0px 47px 56px 0px;
 }
 
 .footer {
