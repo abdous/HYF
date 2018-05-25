@@ -119,7 +119,8 @@ header {
 .first-card, .second-card {
   display: inline-block;
   position: relative;
-  margin: 0px 25px 0px 25px;
+  margin:0px 34px 0px 0px;
+  width: 44%;
 }
 
 span {
@@ -143,12 +144,7 @@ span {
   width: 80%;
 }
 
-.dedi, .multi, .team {
-  width: 120%;
-  background-color: #0EAD69;
-}
-
-.pc {
+.dedi, .multi, .team, .pc {
   width: 90%;
   background-color: #0EAD69;
 }
