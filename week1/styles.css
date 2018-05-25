@@ -1,183 +1,179 @@
 html {
-    color: #7D7D7D;
+  color: #7D7D7D;
 }
 body {
-    background-color: rgb(241, 241, 235);
+  background-color: rgb(241, 241, 235);
 }
 
 h3, h4 {
-    color: brown;
+  color: brown;
 }
 .list {
-    list-style: none;
-    padding: 0 30px 0 30px;
+  list-style: none;
 }
 
 header {
-    background-size: cover;
-    margin: 0px 84px auto 84px;
+  background-size: cover;
+  margin: 0px 84px auto 84px;
 }
 
 
 .banner {
-    width: 100%;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .bio {
-    text-align: center;
-    color: brown;
-    margin: -100px 84px auto 84px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    
+  text-align: center;
+  color: brown;
+  margin: -100px 84px auto 84px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+
 }
 
 .image {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .background {
-    background-color:white;
-    margin-top: -86px;
-    padding-top: 86px;
-    padding-bottom: 20px;
+  background-color:white;
+  margin-top: -86px;
+  padding-top: 86px;
+  padding-bottom: 20px;
 }
 
 .bio h3 {
-    margin-top: -17px;
+  margin-top: -17px;
 }
 
 .bio li {
-    display: inline;
-    padding: inherit;
-    padding-top: 4px;
-    padding-bottom: 4px;
+  display: inline;
+  padding: inherit;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .bio a {
-    color:rgb(43, 43, 43);
-    text-decoration: none;
-    font-size: 20px;
-    padding: 5px;
-    margin: auto;
+  color:rgb(43, 43, 43);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  margin: auto;
 }
 
 .bio a:hover {
-    background-color: brown;
-    color: white;
-    text-decoration: none;
-    border-radius: 2px;
-    transition: 0.2s all ease-in-out;
-    cursor: pointer;
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
 }
 
 .about-me {
-    text-align: center;
-    margin: 6px 84px 0px 84px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    background-color: white;
-    line-height: 0.7cm;
+  text-align: center;
+  padding: 15px 50px 15px 50px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  line-height: 0.7cm;
 }
 
 .about-me b {
-    color: brown;
+  color: brown;
 }
 
 .about-me p {
-    padding: 5%;
-    padding-left: 88px;
-    margin-top: 0px;
+  padding: 10px 42px 15px 42px;
+  margin: 0px;
 }
 
 .about-me a, .footer a {
-    text-decoration: none;
-    color: rgb(43, 43, 43);
+  text-decoration: none;
+  color: rgb(43, 43, 43);
 }
 .about-me a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .education, .experience {
-    padding: 12px 100px 35px 100px;
-    background-color: white;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    line-height: 0.7cm;
+  display: block;
+  line-height: 0.7cm;
 }
 .education {
-    text-align: left;
-    margin: -10px 84px 0px 84px;
+  text-align: left;
 }
 
-.experience {
-    margin: 6px 84px 0px 84px;
+.experience, .skills, .education, .about-me {
+  margin: 6px 84px 0px 84px;
 }
 
+.experience, .skills, .education {
+  padding: 10px 100px 15px 100px;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
 .skills {
-    padding: 12px 0px 12px 100px;
-    margin: 6px 84px 0px 84px;
-    background-color: white;
-    height: 400px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  height: 400px;
 }
 
 .first-card, .second-card {
-    display: inline-flex;
-    position: relative;
-    padding-right: 56px;
+  display: inline-block;
+  position: relative;
+  margin: 0px 25px 0px 25px;
 }
 
 span {
-    display: block;
-    height: 100%;
-    border-radius: 3px;
-    color: rgb(43, 43, 43);
-    margin-top: 14px;
-    padding: 2px 45px 3px 5px;
-  }
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+  color: rgb(43, 43, 43);
+  margin-top: 14px;
+  padding: 2px 45px 3px 5px;
+}
 
-  .comm, .html, .net, .pc, .self, .flex {
-    background-color: #B9FFB7;
+.comm, .html, .net, .pc, .self, .flex {
+  background-color: #B9FFB7;
 }
 
 .comm .net {
-    width: 85%;
+  width: 85%;
 }
 
 .html .self, .flex {
-    width: 80%;
+  width: 80%;
 }
 
 .dedi, .multi, .team {
-    width: 120%;
-    background-color: #0EAD69;
+  width: 120%;
+  background-color: #0EAD69;
 }
 
 .pc {
-    width: 90%;
-    background-color: #0EAD69;
+  width: 90%;
+  background-color: #0EAD69;
 }
 
 .ror {
-    width: 44%;
-    background-color: #F19A3E;
+  width: 44%;
+  background-color: #F19A3E;
 }
 
 .css {
-    width: 60%;
-    background-color: #98D9C2;
+  width: 60%;
+  background-color: #98D9C2;
 }
 
 .js {
-    width: 20%;
-    background-color: #D496A7;
+  width: 20%;
+  background-color: #D496A7;
 }
 
 .footer {
-    text-align: center;
-    margin: 0px 84px 0px 84px;
-    padding: 2px;
-    font-size: 15px;
-    background-color: rgb(29, 29, 29);
-    color: white;
+  text-align: center;
+  margin: 0px 84px 0px 84px;
+  padding: 2px;
+  font-size: 15px;
+  background-color: rgb(29, 29, 29);
+  color: white;
 }
 
