@@ -8,6 +8,7 @@ body {
 h3, h4 {
   color: brown;
 }
+
 .list {
   list-style: none;
 }
@@ -17,12 +18,13 @@ header {
   margin: 0px 84px auto 84px;
 }
 
-
+/* banner image */
 .banner {
   width: 100%;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* bio section */
 .bio {
   text-align: center;
   color: brown;
@@ -30,12 +32,13 @@ header {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 
 }
-
+/* profile pic */
 .image {
   border-radius: 50%;
 }
 
-.background {
+/* info section */
+.info {
   background-color:white;
   margin-top: -86px;
   padding-top: 86px;
@@ -69,6 +72,7 @@ header {
   transition: 0.2s all ease-in-out;
   cursor: pointer;
 }
+
 
 .about-me {
   text-align: center;
@@ -112,17 +116,18 @@ header {
   background-color: white;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
+
 .skills {
   height: 400px;
 }
-
+/* cards */
 .first-card, .second-card {
   display: inline-block;
   position: relative;
   margin:0px 34px 0px 0px;
   width: 44%;
 }
-
+/* progress bar */
 span {
   display: block;
   height: 100%;
@@ -164,6 +169,7 @@ span {
   background-color: #D496A7;
 }
 
+/* footer */
 .footer {
   text-align: center;
   margin: 0px 84px 0px 84px;
@@ -172,4 +178,3 @@ span {
   background-color: rgb(29, 29, 29);
   color: white;
 }
-
