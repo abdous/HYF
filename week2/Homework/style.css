@@ -20,12 +20,12 @@ h1 {
     font-size: 4rem;
     margin: 0;
     padding-bottom: 1.875rem;
-    background-image: linear-gradient(180deg, #00000021 0%, rgba(0, 0, 0, 0.08) 100%);
+    background: linear-gradient(180deg, #00000021 0%, rgba(0, 0, 0, 0.08) 100%);
 }
 /* headlines */
 h1, h2, h3 {
     text-align: center;
-    color: #4c5760bf;
+    color: #323232;
     text-shadow: 0.0625rem 0.0625rem 0 #00000036;
 }
 /* drones images */
@@ -72,8 +72,8 @@ p {
 
 /* grid-item float & flex childs */
 .grid-item {
+    background-color: white;
     text-align: center;
-    color: black;
     padding: 0.5rem;
     margin-bottom: 0.4375rem;
     border-top: 0.0625rem solid #0000007d;
@@ -82,11 +82,21 @@ p {
     border-left: 0.0625rem dotted #0000007d;
     border-radius: 0.5rem;
 }
+.grid-item:hover {
+    background: radial-gradient(circle, rgba(255,255,255,0) -9%, rgba(107,107,107,0.23433123249299714) 140%);
+    transition: 0.4s all ease-in-out;
+    cursor: pointer;
+}
 
 /* FIRST grid-item child */
 .grid-item:nth-child(1) {
     width: 50%;
 }
+/* hovering color first child */
+.grid-item:hover:nth-child(1) {
+    background: radial-gradient(circle, rgba(192, 29, 29, 0) -9%, rgba(52, 150, 73, 0.79) 186%);
+}
+
 /* grid-item childs from 2 to 12 */
 .grid-item:nth-child(n+2) {
     width: 25%;
@@ -103,6 +113,12 @@ p {
 @media only screen and (max-width: 768px) {
     .grid-item:nth-child(2) {
         width: 50%;
+    }
+}
+/* tablet screen hovering color second child */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+.grid-item:hover:nth-child(2) {
+    background: radial-gradient(circle, rgba(192, 29, 29, 0) -9%, rgba(52, 150, 73, 0.79) 186%);
     }
 }
 /* tablet screen from child 3 to 12 */
