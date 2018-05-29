@@ -1,0 +1,127 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* grids containers */
+section {
+    padding: 0 0.25rem 3.5rem 0.25rem;
+    display: inline-block;
+    background: radial-gradient(circle, rgba(255,255,255,0) -9%, rgba(107,107,107,0.23433123249299714) 170%);
+}
+/* title */
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding-bottom: 1.875rem;
+    background-image: linear-gradient(180deg, #00000021 0%, rgba(0, 0, 0, 0.08) 100%);
+}
+/* headlines */
+h1, h2, h3 {
+    text-align: center;
+    color: #4c5760bf;
+    text-shadow: 0.0625rem 0.0625rem 0 #00000036;
+}
+/* drones images */
+img {
+    width: 100%;
+    margin-bottom: -1.875rem;
+}
+/* drones description */
+p {
+    color: #546A7B;
+    padding-top: 2rem;
+}
+
+/* grid-float parent */
+#grid-floats {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* clearing parent float collapse */
+#grid-floats:after { 
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+/* grid-item float childs */
+#grid-floats .grid-item {
+    height: 33rem;
+    display: block;
+    float: left;
+}
+
+/* grid-flex parent */
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* grid-item float & flex childs */
+.grid-item {
+    text-align: center;
+    color: black;
+    padding: 0.5rem;
+    margin-bottom: 0.4375rem;
+    border-top: 0.0625rem solid #0000007d;
+    border-bottom: 0.0625rem solid #0000007d;
+    border-right: 0.0625rem dotted #0000007d;
+    border-left: 0.0625rem dotted #0000007d;
+    border-radius: 0.5rem;
+}
+
+/* FIRST grid-item child */
+.grid-item:nth-child(1) {
+    width: 50%;
+}
+/* grid-item childs from 2 to 12 */
+.grid-item:nth-child(n+2) {
+    width: 25%;
+}
+
+/* grid items media queries */
+/* large laptop screen 1st child */
+@media only screen and (min-width: 1100px) {
+    #grid-floats .grid-item:nth-child(1) img {
+        width: 83%;
+    }
+}
+/* tablet screen 2nd child */
+@media only screen and (max-width: 768px) {
+    .grid-item:nth-child(2) {
+        width: 50%;
+    }
+}
+/* tablet screen from child 3 to 12 */
+@media only screen and (max-width: 768px) {
+    .grid-item:nth-child(n+3) {
+        width: 33%;
+    }
+}
+/* obile screen 1st child  */
+@media only screen and (max-width: 480px) {
+    .grid-item:nth-child(1) {
+        width: 100%;
+    }
+}
+/* tablet screen from child 2 to 12 */
+@media only screen and (max-width: 480px) {
+    .grid-item:nth-child(n+2) {
+        width: 50%;
+        height: 36.5rem;
+    }
+}
+
