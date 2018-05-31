@@ -20,6 +20,7 @@ h1 {
     font-size: 4rem;
     margin: 0;
     padding-bottom: 1.875rem;
+    border-bottom: 0.1rem solid silver;
     background: linear-gradient(180deg, #00000021 0%, rgba(0, 0, 0, 0.08) 100%);
 }
 /* headlines */
