@@ -141,4 +141,88 @@ p {
         height: 36.5rem;
     }
 }
+/* Keyframing grid-floats 2rd drone on hovering for large screens only*/
+@media only screen and (min-width: 768px) {
+    #grid-floats .grid-item:hover:nth-child(2) img {
+        width: 20%;
+        position: absolute;
+        animation-name: fly1;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;	
+        animation-direction: normal;
+        animation-delay: 0;
+        animation-play-state: running;
+        animation-fill-mode: forwards;
+    }
+    #grid-floats .grid-item:hover:nth-child(2) p {
+        padding-top: 81.5%;
+    }
+}
+/* keyframes movements dron2 */
+@media only screen and (min-width: 768px) {
+    @keyframes fly1 {
+        0% {
+            top: 0px;
+            left: 52%;
+        }
 
+        33% {
+            top: 0;
+            left: 0;
+        }
+
+        50% {
+            left: 0;
+            top: 37%;
+        }
+
+        100% {
+            top: 37%;
+            left: 52%;
+        }
+    }
+}
+/* Keyframing grid-floats 3rd drone on hovering for large screens only*/
+@media only screen and (min-width: 768px) {
+    #grid-floats .grid-item:hover:nth-child(3) img {
+        width: 20%;
+        position: absolute;
+        animation-name: fly2;
+        animation-duration: 10s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;	
+        animation-direction: normal;
+        animation-delay: 0;
+        animation-play-state: running;
+        animation-fill-mode: forwards;
+    }
+    #grid-floats .grid-item:hover:nth-child(3) p {
+        padding-top: 81.5%;
+    }
+}
+/* keyframes movements dron3 */
+@media only screen and (min-width: 768px) {
+    @keyframes fly2 {
+        0% {
+            top: 0px;
+            left: 77%;
+        }
+
+        33% {
+            top: 0;
+            left: 0;
+        }
+
+        50% {
+            left: 0;
+            top: 37%;
+        }
+
+        100% {
+            top: 37%;
+            left: 77%;
+        }
+    }
+}
+/* End of file */
