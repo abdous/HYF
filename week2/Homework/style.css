@@ -78,6 +78,7 @@ p {
   text-align: center;
   padding: 0.5rem;
   margin-bottom: 0.4375rem;
+  overflow: auto;
   border-top: 0.0625rem solid #0000007d;
   border-bottom: 0.0625rem solid #0000007d;
   border-right: 0.0625rem dotted #0000007d;
@@ -108,13 +109,16 @@ p {
 /* large laptop screen 1st child */
 @media only screen and (min-width: 1100px) {
   #grid-floats .grid-item:nth-child(1) img {
-    width: 83%;
+    width: 80%;
   }
 }
-/* tablet screen 2nd child */
+/* tablet screen */
 @media only screen and (max-width: 768px) {
   .grid-item:nth-child(2) {
     width: 50%;
+  }
+  .grid-item:nth-child(n+3) {
+    width: 33%;
   }
 }
 /* tablet screen hovering color second child */
@@ -123,20 +127,11 @@ p {
     background: radial-gradient(circle, rgba(192, 29, 29, 0) -9%, rgba(52, 150, 73, 0.79) 186%);
   }
 }
-/* tablet screen from child 3 to 12 */
-@media only screen and (max-width: 768px) {
-  .grid-item:nth-child(n+3) {
-    width: 33%;
-  }
-}
-/* obile screen 1st child  */
+/* small screen  */
 @media only screen and (max-width: 480px) {
   .grid-item:nth-child(1) {
     width: 100%;
   }
-}
-/* tablet screen from child 2 to 12 */
-@media only screen and (max-width: 480px) {
   .grid-item:nth-child(n+2) {
     width: 50%;
     height: 36.5rem;
