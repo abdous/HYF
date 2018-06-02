@@ -143,7 +143,7 @@ p {
     width: 20%;
     position: absolute;
     animation-name: fly1;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-direction: normal;
@@ -184,7 +184,7 @@ p {
     width: 20%;
     position: absolute;
     animation-name: fly2;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-timing-function: ease;
     animation-iteration-count: 1;
     animation-direction: normal;
