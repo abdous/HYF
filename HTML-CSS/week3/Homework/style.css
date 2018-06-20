@@ -139,6 +139,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     right: 33px;
     margin-top: -40px;
 }
+.search :-moz-any(img) {
+    margin-top: 17px;
+}
 /* search bar position for medium & large screens */
 @media screen and (min-width:768px){
     .search {
@@ -434,6 +437,9 @@ header {
     text-align: center;
     font-size: 3vw;
     text-decoration: none;
+}
+.contact-card :-moz-any(h2) {
+    font-size: 2.5vw;
 }
 .questions h2 {
     color: #01689b;
