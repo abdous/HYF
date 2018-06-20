@@ -1,0 +1,222 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* grids containers */
+section {
+  padding: 0 0.25rem 3.5rem 0.25rem;
+  display: inline-block;
+  background: radial-gradient(circle, rgba(255,255,255,0) -9%, rgba(107,107,107,0.23433123249299714) 170%);
+}
+/* title */
+h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding-bottom: 1.875rem;
+  border-bottom: 0.1rem solid silver;
+  background: linear-gradient(180deg, #00000021 0%, rgba(0, 0, 0, 0.08) 100%);
+}
+/* headlines */
+h1, h2, h3 {
+  text-align: center;
+  color: #323232;
+  text-shadow: 0.0625rem 0.0625rem 0 #00000036;
+}
+/* drones images */
+img {
+  width: 100%;
+  margin-bottom: -1.875rem;
+}
+/* drones description */
+p {
+  color: #546A7B;
+  padding-top: 2rem;
+}
+
+/* grid-float parent */
+#grid-floats {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* clearing parent float collapse */
+#grid-floats:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+/* grid-item float childs */
+#grid-floats .grid-item {
+  height: 33rem;
+  display: block;
+  float: left;
+}
+
+/* grid-flex parent */
+#grid-flex {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* grid-item float & flex childs */
+.grid-item {
+  background-color: white;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 0.4375rem;
+  overflow: auto;
+  border-top: 0.0625rem solid #0000007d;
+  border-bottom: 0.0625rem solid #0000007d;
+  border-right: 0.0625rem dotted #0000007d;
+  border-left: 0.0625rem dotted #0000007d;
+  border-radius: 0.5rem;
+}
+.grid-item:hover {
+  background: radial-gradient(circle, rgba(255,255,255,0) -9%, rgba(107,107,107,0.23433123249299714) 140%);
+  transition: 0.4s all ease-in-out;
+  cursor: pointer;
+}
+
+/* FIRST grid-item child */
+.grid-item:nth-child(1) {
+  width: 50%;
+}
+/* hovering color first child */
+.grid-item:hover:nth-child(1) {
+  background: radial-gradient(circle, rgba(192, 29, 29, 0) -9%, rgba(52, 150, 73, 0.79) 186%);
+}
+
+/* grid-item childs from 2 to 12 */
+.grid-item:nth-child(n+2) {
+  width: 25%;
+}
+
+/* grid items media queries */
+/* large laptop screen 1st child */
+@media only screen and (min-width: 1100px) {
+  #grid-floats .grid-item:nth-child(1) img {
+    width: 80%;
+  }
+}
+/* tablet screen */
+@media only screen and (max-width: 768px) {
+  .grid-item:nth-child(2) {
+    width: 50%;
+  }
+  .grid-item:nth-child(n+3) {
+    width: 33%;
+  }
+}
+/* tablet screen hovering color second child */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .grid-item:hover:nth-child(2) {
+    background: radial-gradient(circle, rgba(192, 29, 29, 0) -9%, rgba(52, 150, 73, 0.79) 186%);
+  }
+}
+/* small screen  */
+@media only screen and (max-width: 480px) {
+  .grid-item:nth-child(1) {
+    width: 100%;
+  }
+  .grid-item:nth-child(n+2) {
+    width: 50%;
+    height: 36.5rem;
+  }
+}
+/* Keyframing grid-floats 2rd drone on hovering for large screens only*/
+@media only screen and (min-width: 768px) {
+  #grid-floats .grid-item:hover:nth-child(2) img {
+    width: 20%;
+    position: absolute;
+    animation-name: fly1;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+  }
+  #grid-floats .grid-item:hover:nth-child(2) p {
+    padding-top: 81.5%;
+  }
+}
+/* keyframes movements dron2 */
+@media only screen and (min-width: 768px) {
+  @keyframes fly1 {
+    0% {
+      top: 0px;
+      left: 52%;
+  }
+
+    33% {
+      top: 0;
+      left: 0;
+    }
+
+    50% {
+      left: 0;
+      top: 37%;
+    }
+
+    100% {
+      top: 37%;
+      left: 52%;
+    }
+  }
+}
+/* Keyframing grid-floats 3rd drone on hovering for large screens only*/
+@media only screen and (min-width: 768px) {
+  #grid-floats .grid-item:hover:nth-child(3) img {
+    width: 20%;
+    position: absolute;
+    animation-name: fly2;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+  }
+  #grid-floats .grid-item:hover:nth-child(3) p {
+    padding-top: 81.5%;
+  }
+}
+/* keyframes movements dron3 */
+@media only screen and (min-width: 768px) {
+  @keyframes fly2 {
+    0% {
+      top: 0px;
+      left: 77%;
+    }
+
+    33% {
+      top: 0;
+      left: 0;
+    }
+
+    50% {
+      left: 0;
+      top: 37%;
+    }
+
+    100% {
+      top: 37%;
+      left: 77%;
+    }
+  }
+}
+/* End of file */

@@ -1,0 +1,64 @@
+html {
+    font-size: 1rem;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    border: 0.125rem solid blue;
+    display: flex;
+    margin: 0.625rem;
+}
+
+.column {
+    width: 100%;
+    height: 18.75rem;
+    background-color: black;
+    border: 0.1875rem solid red;
+    margin: 0.625rem;
+}
+
+@media (max-width: 48rem) {
+    .row {
+        flex-direction: column;
+        padding: 0.4375rem;
+    }
+    .column {
+        margin: 0;
+    }
+    .two, .three {
+        margin-top: 0.5rem;
+    }
+}
+
+
+/* 
+.row:nth-child(1) .column {
+    box-sizing: border-box;
+    background-color: purple;
+    border: 2px solid white;
+    width: 100%;
+    height: 250px;
+}
+
+.row:nth-child(2) .column {
+    box-sizing: border-box;
+    border: 2px solid white;
+    width: 50%;
+    height: 250px;
+    float: left;
+    background-color: red;
+}
+
+.row:nth-child(3) .column {
+    box-sizing: border-box;
+    border: 2px solid white;
+    width: 33%;
+    height: 250px;
+    float: left;
+    background-color: green;
+
+} */

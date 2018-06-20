@@ -1,0 +1,184 @@
+html {
+  color: #7D7D7D;
+}
+body {
+  background-color: rgb(241, 241, 235);
+}
+
+h3, h4 {
+  color: brown;
+}
+
+.list {
+  list-style: none;
+}
+
+header {
+  background-size: cover;
+  margin: 0px 84px auto 84px;
+}
+
+/* banner image */
+.banner {
+  width: 100%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* bio section */
+.bio {
+  text-align: center;
+  color: brown;
+  margin: -100px 84px auto 84px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+
+}
+/* profile pic */
+.image {
+  border-radius: 50%;
+}
+
+/* info section */
+.info {
+  background-color:white;
+  margin-top: -86px;
+  padding-top: 86px;
+  padding-bottom: 20px;
+}
+
+.background ul {
+  padding: 0 30px 0 30px;
+}
+
+.bio h3 {
+  margin-top: -17px;
+}
+
+.bio li {
+  display: inline;
+  padding: inherit;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.bio a {
+  color:rgb(43, 43, 43);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  margin: auto;
+}
+
+.bio a:hover {
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+
+
+.about-me {
+  text-align: center;
+  padding: 15px 50px 15px 50px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  line-height: 0.7cm;
+}
+
+.about-me b {
+  color: brown;
+}
+
+.about-me p {
+  padding: 10px 42px 15px 42px;
+  margin: 0px;
+}
+
+.about-me a, .footer a {
+  text-decoration: none;
+  color: rgb(43, 43, 43);
+}
+.about-me a:hover {
+  text-decoration: underline;
+}
+
+.education, .experience {
+  display: block;
+  line-height: 0.7cm;
+}
+.education {
+  text-align: left;
+}
+
+.experience, .skills, .education, .about-me {
+  margin: 6px 84px 0px 84px;
+}
+
+.experience, .skills, .education {
+  padding: 10px 100px 15px 100px;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+  height: 400px;
+}
+/* cards */
+.first-card, .second-card {
+  display: inline-block;
+  position: relative;
+  margin:0px 34px 0px 0px;
+  width: 44%;
+}
+/* progress bar */
+span {
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+  color: rgb(43, 43, 43);
+  margin-top: 14px;
+  padding: 2px 45px 3px 5px;
+}
+
+.comm, .html, .net, .pc, .self, .flex {
+  background-color: #B9FFB7;
+}
+
+.comm .net {
+  width: 85%;
+}
+
+.html .self, .flex {
+  width: 80%;
+}
+
+.dedi, .multi, .team, .pc {
+  width: 90%;
+  background-color: #0EAD69;
+}
+
+.ror {
+  width: 44%;
+  background-color: #F19A3E;
+}
+
+.css {
+  width: 60%;
+  background-color: #98D9C2;
+}
+
+.js {
+  width: 20%;
+  background-color: #D496A7;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  margin: 0px 84px 0px 84px;
+  padding: 2px;
+  font-size: 15px;
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
