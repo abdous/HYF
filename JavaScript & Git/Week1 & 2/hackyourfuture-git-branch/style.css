@@ -1,0 +1,365 @@
+/*color:#01689b;*/
+
+html{
+    margin: 0;
+    padding: 0;
+}
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+ /* logo */
+.logo{
+  display: block;
+    margin: auto;
+     height: 100px;
+     width: 100px;
+}
+/* End logo */
+
+/* Menu */
+#header {
+    display: flex;
+    width: 100%;
+    margin: 20px  auto 0 auto;    
+ }
+#menu{
+    height: 80px;
+    width: 100%;
+    background-color: #01689b;
+}
+.menu-item-home{
+    
+    padding:20px 500px 20px 20px;  
+     font-size: 26px;
+    float: left;
+    line-height: 10px;
+  
+
+}
+.menu-item-home a{
+    color:#fff; 
+    text-decoration: none;
+}
+.menu-all{
+    float: right;
+    margin-right: 3%;
+}
+.menu-item{
+    font-size: 19px;
+    float: left;
+    line-height: 10px;
+    padding: 20px;
+}
+.menu-item a{
+    color:#fff; 
+    text-decoration: none;
+}
+.menu-item:hover{
+    text-decoration-line: underline;
+}
+/* End Menu */
+
+/* search-bar */
+#fa-search{
+  font-size:30px;color:white;
+    padding: 5px;
+    margin: 0 auto;
+   
+}
+#search-submit{
+    margin: -58px;
+    padding: 0;
+    background-color: black;
+    width: 58px;
+    height: 58px;
+    border: 0;
+    
+}
+.searchSubmit{
+   
+    padding: 0;
+    
+}
+.search {
+    position: relative;
+   width: 30%;
+        float: right;
+        top: 50px;
+        border: none;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    
+    
+}
+.search input {
+    background-color: white;
+    padding: 19px;
+    border: 1px solid #d8dee2;
+    width: 70%;
+    font-size: 15px;
+    margin: 0;
+}
+/* End search-bar */
+
+header {
+    background-image: url(https://www.rijksoverheid.nl/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/onderwerpen/k/mandjes.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow: inherit;
+}
+.h-l{
+    padding: 5px;
+}
+.h-l a:hover{
+    color: skyblue;
+}
+.hero-img {
+    overflow: hidden;  
+}
+.hero-container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hero-list{
+    position: relative;
+    background-color: #fff;
+    padding: 20px 0;
+    margin: 50px 30px;
+    text-align: left;
+    width: 550px;
+}
+.hero-list a{
+    color: #01689b;
+    text-decoration: none;
+}
+
+/*box text container*/
+.box-text-container{
+    padding: 10px;
+    background-color: #eee;
+}
+#grid-flex{
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+.grid-item { 
+    float: left;
+    transform: scale(0.9); 
+    width: 25%;
+    padding: 10px;
+    overflow: auto;
+}
+.grid-item a{
+    text-decoration: none;
+    
+}
+.grid-item h2{
+  color: #01689b; 
+}
+.grid-item p{
+    color: black;
+}
+/*End box text container*/
+
+/* Nieuws and img  */
+.nieuws-img {
+   padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.img-nw {
+    float: left;
+    transform: scale(0.9); 
+    width: 33%;
+    padding: 10px;
+    overflow: auto;  
+}
+.img-nw h1{
+   color:#01689b;  
+}
+.img-nw p{
+    color: black;
+}
+.img-nw a{
+    text-decoration: none;
+}
+/*End Nieuws and img*/
+
+/*Nieuws*/
+.container-Nieuws{
+    border-top: 1px solid #eee;
+    margin-left: 3%;
+} 
+.cont-nw{
+    
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    
+}
+.nw1{
+   float: left;
+    transform: scale(0.9); 
+    width: 33%;
+    padding: 10px;
+    overflow: auto; 
+    
+}  
+.nw1 a{
+    text-decoration: none;
+    
+}
+.nw1 h2{
+  color: #01689b; 
+}
+.nw1 p{
+    color: black; 
+}
+.meer{
+    color: #01689b;
+    text-decoration: none;
+    margin-left: 3%;
+}
+/*End Nieuws*/
+
+/*container-vragen*/
+.cont-vragen{
+    display: flex;
+    flex-direction: row;
+}
+.vragen {
+    width: 25%;
+    margin: 5px 5px 5px 3%;
+    float: left;
+    border: 6px solid #cbd2e3;
+    text-align: center;
+    font-weight: 600;
+    height: auto;
+}
+.vragen h2{
+    font-size: 30px;
+   color: #1b5e84;
+    
+}
+.vragen h3{
+    font-size: 26px;
+   color: black; 
+}
+.vragen a{
+    text-decoration: none;
+}
+.Nieuwsbrie {
+    width: 25%;
+    padding: 10px;
+    margin: 10px 10px 10px 3%;
+    float: left;
+    border: 6px solid #cbd2e3;
+    text-align: center;
+    font-weight: 600;
+    height: auto;
+}
+.Nieuwsbrie h3{
+    font-size: 24px;
+   color: black; 
+}
+.Nieuwsbrie h2{
+    font-size: 30px;
+   color: #a90061;
+    
+}
+.Nieuwsbrie a{
+    text-decoration: none;
+}
+/*End container-vragen*/
+
+/*footer list*/
+#footer {
+       display: flex;
+    display: grid;
+  grid-template-columns: 60% 15% 15%;
+    background-color: #01689b;
+    margin-top: 60px;
+    padding: 60px 0;
+}
+.text-footer{
+    display: block;
+    padding-left: 5%;
+    color: #fff;
+    font-size: 26px;
+} 
+.list-footer{
+     display: flex;
+    justify-content: space-around;
+    padding-right: 25px;
+}
+.col{
+   margin-right: 3%;
+}
+.col h2 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 26px;
+    margin: 8px 0 5px 0;
+}
+.col ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    line-height: 2em;
+}
+.col a {
+    color: #fff;
+    text-decoration: none;
+}
+.col a:hover {
+    text-decoration: underline;
+}
+/*End footer list*/
+
+/*footer-languages*/
+.footer-languages{
+    width: 100%;
+    margin: 0 -25%;
+    font-size: 16px;
+    float: left;
+    line-height: 10px; 
+}
+.languages{
+     float: right;
+    margin-right: 3%;
+}
+.languages a{
+    color: #01689b;
+    text-decoration: none;
+}
+.la a:hover{
+    color: skyblue;
+}
+.la{
+   
+    float: left;
+    line-height: 10px;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid skyblue;
+    
+}
+.la-n{
+    
+    float: left;
+    line-height: 10px;
+    padding: 20px;
+    
+    
+}
+/*End footer-languages*/
