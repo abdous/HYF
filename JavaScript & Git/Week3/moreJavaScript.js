@@ -1,3 +1,7 @@
+// hi my Dear am not going to change anything just for the pupose of home work i fork it and going to pull it. so the purpose is fulfil.
+// thanks 
+
+
 // More JavaScript
 // 1.Create a function that takes 3 arguments and returns the sum of the these arguments.
 function sum(a, b, c) {
